@@ -1,3 +1,10 @@
+## for demo here :
+https://joe-background-color-generator.netlify.app/
+
+## screenshot 
+![image](https://github.com/josephmagdy2001/CodeClauseInternship_Background_Generator/assets/116683350/618bd754-9f13-4247-87f2-035db3dc17b4)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
