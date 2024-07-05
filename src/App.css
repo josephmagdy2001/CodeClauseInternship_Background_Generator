@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+  background-color: #fb959723;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls > * {
+  margin: 0 10px;
+}
+.footer {
+  background-color: #f0f0f0;
+  padding: 6px;
+  position: relative;
+  left: 0;
+  bottom: -20px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.Logo {
+  float: left;
+  margin-left: 30px;
+  font-size: 30px;
+}
+nav {
+  color: rgb(13, 11, 11);
+  padding: 10px;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 700;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.color-picker {
+  margin: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.color-picker label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.color-picker input[type="color"] {
+  cursor: pointer;
+}
+
+.color-info {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.color-info p {
+  margin: 5px 0;
+}
+
+.color-info span {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.color-info span:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 521px) {
+  nav {
+    font-size: 18px;
+    padding: 8px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 391px) {
+  .controls {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+.background-preview {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.background-preview code {
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 20px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 20px;  
+  height: auto;
+}
